@@ -20,7 +20,7 @@
     padding: 25px 0 13px 0;
     /* background: crimson; */
     font-family: 'Ubuntu', sans-serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .navbar .max-width {
@@ -31,7 +31,7 @@
 }
 
 .navbar .logo a{
-    color: #fff ;
+    color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
@@ -46,6 +46,10 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+    color: #ffd4c7;
 }
 
 /* home section styling */
@@ -57,6 +61,7 @@
     /* background-attachment: fixed; */
     height: 100vh;
     color: #fff;
+    /* min-height: 500px; */
     font-family: 'Ubuntu', sans-serif;
 }
 
