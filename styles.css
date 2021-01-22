@@ -25,7 +25,6 @@
 
 .navbar .max-width {
     display: flex;
-    /* align-items: baseline; */
     align-items: center;
     justify-content: space-between;
 }
