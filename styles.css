@@ -16,6 +16,7 @@
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 999;
     /* padding: 15px 0; */
     padding: 40px 0 13px 0;
     /* background: crimson; */
@@ -125,6 +126,32 @@
     margin-right: 50px;
 }
 
+.home .home-content a {
+    display: inline-block;
+    background: #fc3503;
+    color: #fff;
+    border: 2px solid #fc3503;
+    padding: 10px 26px;
+    border-color: #fc3503;
+    font-size: 23px;
+    margin-top: 38px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin-right: 25px;
+}
+
+#cv {
+    background: none;
+}
+
+#cv:hover {
+    background: #fc3503;
+}
+
+.home .home-content a:hover {
+    background: none;
+}
+
 .home .home-content .text-1 {
     /* padding-top: 270px; */
     font-size: 27px;
@@ -145,6 +172,90 @@
     color: crimson;
     font-weight: 500;
 }
+
+#about {
+    padding: 100px 0;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about .title::before {
+    content: "";
+    position: absolute;
+    background: #111; 
+    height: 3px;
+    width: 180px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about .title::after {
+    content: "who i am";
+    position: absolute;
+    /* bottom: 0px; */
+    background: white; 
+    color: #fc3503;
+    /* height: 3px;
+    width: 180px; */
+    bottom: -12px;
+    font-size: 20px;
+    padding: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive media query start */
 
 @media (max-width: 920px) {
@@ -211,6 +322,13 @@
         font-size: 35px;
     }
 
+    .home .home-content a {
+        font-size: 21px;
+        padding: 8px 20px;
+        margin-right: 22px;
+    }
+
+
 }
 
 @media (max-width: 690px) {
@@ -229,6 +347,13 @@
     .home .max-width img {
         max-width: 105%;
     }
+
+    .home .home-content a {
+        font-size: 19px;
+        padding: 8px 20px;
+        margin-right: 12px;
+    }
+
 }
 
 @media (max-width: 620px) {
