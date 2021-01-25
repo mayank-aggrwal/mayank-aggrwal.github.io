@@ -39,9 +39,22 @@
 }
 
 .navbar .logo a{
+    position: relative;
     color: #fff;
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 600;
+}
+
+.navbar .logo a::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -8px;
+    bottom: -5px;
+    height: 47px;
+    width: 47px;
+    background: #fc3503;
+    border-radius: 25px;
 }
 
 .navbar.sticky .logo a {
