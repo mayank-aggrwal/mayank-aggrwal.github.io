@@ -1,8 +1,8 @@
-# 💻 Portfolio website 
+# 💻 My Portfolio website 
 
-[![](https://img.shields.io/badge/html-blue)](https://python.org/downloads/)
-[![](https://img.shields.io/badge/css-green)](https://python.org/downloads/)
-[![](https://img.shields.io/badge/js-orange)](https://python.org/downloads/)
+[![](https://img.shields.io/badge/html-blue)](https://www.w3schools.com/html/)
+[![](https://img.shields.io/badge/css-green)](https://www.w3schools.com/css)
+[![](https://img.shields.io/badge/js-orange)](https://www.w3schools.com/js)
 
 Personal website created using only HTML, CSS, JS
 
